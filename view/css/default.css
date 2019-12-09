@@ -1,7 +1,13 @@
+.moldura-livro {
+    margin: 10px 0px 10px 0px;
+    height: 11rem;
+    width: auto !important;
+    max-width: 100%;
+}
+
 .capa-livro {
     margin: 10px 0px 10px 0px;
-    height: 250px;
-    width: auto;
+    width: 100%;
 }
 
 .capa-livro-pesquisa {
