@@ -19,17 +19,13 @@ var app = new Vue({
 
     axios.get('http://localhost/mybooks/api/livros')
       .then(function (response) {
-
         self.livros = response.data;
-        // handle success
         console.log(response);
       })
       .catch(function (error) {
-        // handle error
         console.log(error);
       })
       .finally(function () {
-        // always executed
         console.log("Executado com sucesso!");
       });
   },
@@ -64,16 +60,13 @@ var app = new Vue({
         .then(function (response) {
 
           self.responseGoogleBooks = response.data.items;
-          // handle success
           //console.log(response.data.items);
         })
         .catch(function (error) {
-          // handle error
           console.log(error);
         })
         .finally(function () {
-          // always executed
-          console.log("Executado com sucesso!");
+          console.log("Livros retornados do Google com sucesso!");
         });
         
     },

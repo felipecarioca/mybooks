@@ -1,0 +1,5 @@
+Materiais para paginação:
+
+https://stackoverflow.com/questions/25434813/simple-pagination-in-javascript
+http://jsfiddle.net/Lzp0dw83/
+https://medium.com/@denny.headrick/pagination-in-vue-js-4bfce47e573b
